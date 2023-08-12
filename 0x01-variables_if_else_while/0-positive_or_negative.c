@@ -1,14 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdlib.h>
- 
-/* more headers goes there */
+#include <stdio.h>
 
+/* more headers goes there */
 /* betty style doc for function main goes there */
 /**
  * main - Entry point
  *
- * Return: Alwys 0 (success)
+ * Descrption: false or true validation
+ *
+ * Return: 0 (success)
 */
 
 int main(void)
