@@ -4,26 +4,25 @@
  * @dest: input value
  * @src: input value
  *
- * Return: void
- */
+ *Return: destination string (char *ptr)
+*/
 char *_strcat(char *dest, char *src)
 {
-	int i;
-	int j;
+	int lenl, len2, i;
 
-	i = 0;
-	while (dest[i] != '\0')
+	for (lenl = 0; dest[lenl] != '\0'; len1++)
 	{
-		i++;
-	}
-	j = 0;
-	while (src[j] != '\0')
-	{
-		dest[i] = src[j];
-		i++;
-		j++;
+
 	}
 
-	dest[i] = '\0';
+	for (len2 = 0; src[len2] != '\0'; len2++)
+	{
+
+	}
+	for (i = 0; i <= len2; i++)
+	{
+		dest[len1 + i] = src[i];
+	}
+
 	return (dest);
 }
