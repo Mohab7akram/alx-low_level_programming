@@ -2,11 +2,10 @@
 #include <stdlib.h>
 
 /**
- * main -prints the name of the program
- * @argc: number of arguments
- * @argv: array of arguments
- *
- * Return:Always 0(success)
+ * main - multiples two numbers
+ * @argc: number of command line arg...
+ * @argv: the array that contains the command line arg...
+ * Return: (0) when successful
 */
 
 int main(int argc, char *argv[])
@@ -16,6 +15,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	printf("%d\n", atoi(agrv[1]) * atoi(atgv[2]));
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	return (0);
 }
